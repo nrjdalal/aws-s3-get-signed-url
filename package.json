@@ -1,0 +1,29 @@
+{
+  "name": "@nrjdalal/aws-s3-get-signed-url",
+  "version": "1.0.0",
+  "description": "Get signed url for AWS S3 bucket without hassle",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Neeraj Dalal",
+    "email": "admin@nrjdalal.com",
+    "url": "https://github.com/nrjdalal"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "getSignedUrl"
+  ],
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.427.0",
+    "@aws-sdk/s3-request-presigner": "^3.427.0",
+    "nanoid": "^5.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
