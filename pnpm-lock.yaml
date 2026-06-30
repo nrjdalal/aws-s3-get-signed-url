@@ -13,7 +13,7 @@ dependencies:
     version: 3.427.0
   nanoid:
     specifier: ^5.0.1
-    version: 5.0.1
+    version: 5.1.6
 
 devDependencies:
   dotenv:
@@ -1055,8 +1055,8 @@ packages:
       strnum: 1.0.5
     dev: false
 
-  /nanoid@5.0.1:
-    resolution: {integrity: sha512-vWeVtV5Cw68aML/QaZvqN/3QQXc6fBfIieAlu05m7FZW2Dgb+3f0xc0TTxuJW+7u30t7iSDTV/j3kVI0oJqIfQ==}
+  /nanoid@5.1.6:
+    resolution: {integrity: sha512-c7+7RQ+dMB5dPwwCp4ee1/iV/q2P6aK1mTZcfr1BTuVlyW9hJYiMPybJCcnBlQtuSmTIWNeazm/zqNoZSSElBg==}
     engines: {node: ^18 || >=20}
     hasBin: true
     dev: false
